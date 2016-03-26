@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		07A9CD3D1CA452F40029329B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A9CD3C1CA452F40029329B /* AppDelegate.swift */; };
-		07A9CD3F1CA452F40029329B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A9CD3E1CA452F40029329B /* ViewController.swift */; };
-		07A9CD421CA452F40029329B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07A9CD401CA452F40029329B /* Main.storyboard */; };
 		07A9CD451CA452F40029329B /* buscadorLibrosTablas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07A9CD431CA452F40029329B /* buscadorLibrosTablas.xcdatamodeld */; };
 		07A9CD471CA452F40029329B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07A9CD461CA452F40029329B /* Assets.xcassets */; };
 		07A9CD4A1CA452F40029329B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07A9CD481CA452F40029329B /* LaunchScreen.storyboard */; };
+		07A9CD521CA45C330029329B /* TVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A9CD511CA45C330029329B /* TVC.swift */; };
+		07BCF1D81CA634B800CAE5C4 /* Agregar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCF1D71CA634B800CAE5C4 /* Agregar.swift */; };
+		07BCF1DD1CA6DA2900CAE5C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07BCF1DB1CA6DA2900CAE5C4 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		07A9CD391CA452F40029329B /* buscadorLibrosTablas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = buscadorLibrosTablas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07A9CD3C1CA452F40029329B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		07A9CD3E1CA452F40029329B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		07A9CD411CA452F40029329B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07A9CD441CA452F40029329B /* buscadorLibrosTablas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = buscadorLibrosTablas.xcdatamodel; sourceTree = "<group>"; };
 		07A9CD461CA452F40029329B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07A9CD491CA452F40029329B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07A9CD4B1CA452F40029329B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07A9CD511CA45C330029329B /* TVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVC.swift; sourceTree = "<group>"; };
+		07BCF1D71CA634B800CAE5C4 /* Agregar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Agregar.swift; sourceTree = "<group>"; };
+		07BCF1DC1CA6DA2900CAE5C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +58,14 @@
 		07A9CD3B1CA452F40029329B /* buscadorLibrosTablas */ = {
 			isa = PBXGroup;
 			children = (
+				07BCF1DB1CA6DA2900CAE5C4 /* Main.storyboard */,
 				07A9CD3C1CA452F40029329B /* AppDelegate.swift */,
-				07A9CD3E1CA452F40029329B /* ViewController.swift */,
-				07A9CD401CA452F40029329B /* Main.storyboard */,
 				07A9CD461CA452F40029329B /* Assets.xcassets */,
 				07A9CD481CA452F40029329B /* LaunchScreen.storyboard */,
 				07A9CD4B1CA452F40029329B /* Info.plist */,
 				07A9CD431CA452F40029329B /* buscadorLibrosTablas.xcdatamodeld */,
+				07A9CD511CA45C330029329B /* TVC.swift */,
+				07BCF1D71CA634B800CAE5C4 /* Agregar.swift */,
 			);
 			path = buscadorLibrosTablas;
 			sourceTree = "<group>";
@@ -125,9 +128,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07BCF1DD1CA6DA2900CAE5C4 /* Main.storyboard in Resources */,
 				07A9CD4A1CA452F40029329B /* LaunchScreen.storyboard in Resources */,
 				07A9CD471CA452F40029329B /* Assets.xcassets in Resources */,
-				07A9CD421CA452F40029329B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07A9CD3F1CA452F40029329B /* ViewController.swift in Sources */,
 				07A9CD451CA452F40029329B /* buscadorLibrosTablas.xcdatamodeld in Sources */,
+				07BCF1D81CA634B800CAE5C4 /* Agregar.swift in Sources */,
+				07A9CD521CA45C330029329B /* TVC.swift in Sources */,
 				07A9CD3D1CA452F40029329B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,20 +151,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		07A9CD401CA452F40029329B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				07A9CD411CA452F40029329B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		07A9CD481CA452F40029329B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				07A9CD491CA452F40029329B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		07BCF1DB1CA6DA2900CAE5C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07BCF1DC1CA6DA2900CAE5C4 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -290,6 +294,7 @@
 				07A9CD501CA452F40029329B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
